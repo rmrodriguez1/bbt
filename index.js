@@ -11,8 +11,6 @@ function displayEpisodes(data){
 }
 
 
-
-
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
