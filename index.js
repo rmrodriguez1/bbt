@@ -1,4 +1,4 @@
-fetch("https://tarea-1-breaking-bad.herokuapp.com/api/")
+fetch("https://tarea-1-breaking-bad.herokuapp.com/api/characters/")
    .then(response => response.json())
    .then(characters => showCharacters(characters.results));
 
