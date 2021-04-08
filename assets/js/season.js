@@ -6,6 +6,6 @@ fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series=Better+Cal
 function displayEpisodes(data){
    var episodes = document.getElementById('episodes'); 
    for (var i=0; i<data.length; i++){
-       episodes.append("Episode "+data[i].episode+": "+data[i].title);
+       episodes.append("Episode "+data[i].episode+": "+data[i].title+"<br />");
    }
 }
