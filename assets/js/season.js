@@ -3,6 +3,7 @@ fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series=Better+Cal
 .then(response => response.json())
 .then(data => displayEpisodes(data));
 
+var season = 2;
 
 function displayEpisodes(data){
    var episodes = document.getElementById('episodes'); 
