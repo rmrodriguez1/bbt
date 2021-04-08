@@ -1,4 +1,4 @@
-fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series="+series)
+fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series=breaking+bad")
 .then(response => response.json())
 .then(data => displayEpisodes(data));
 
