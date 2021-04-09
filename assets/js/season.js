@@ -1,4 +1,3 @@
-
 document.getElementById("brba1").onclick = function() {fetchEpisodes("Breaking+Bad", 1)};
 document.getElementById("brba2").onclick = function() {fetchEpisodes("Breaking+Bad", 2)};
 document.getElementById("brba3").onclick = function() {fetchEpisodes("Breaking+Bad", 3)};
