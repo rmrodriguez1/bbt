@@ -7,7 +7,7 @@ document.getElementById("brba5").onclick = function() {fetchEpisodes("Breaking+B
 
 
 function fetchEpisodes(series, season)
-    fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series="+series)
+    fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series=Breaking+Bad")
     .then(response => response.json())
     .then(data => displayEpisodes(data, season));
 
