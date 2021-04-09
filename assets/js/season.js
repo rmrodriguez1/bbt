@@ -6,10 +6,11 @@ document.getElementById("brba4").onclick = function() {fetchEpisodes("Breaking+B
 document.getElementById("brba5").onclick = function() {fetchEpisodes("Breaking+Bad", 5)};
 
 
-function fetchEpisodes(series, season)
-    fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series=Breaking+Bad")
+function fetchEpisodes(series, season){
+    fetch("https://tarea-1-breaking-bad.herokuapp.com/api/episodes?series="+series)
     .then(response => response.json())
     .then(data => displayEpisodes(data, season));
+}
 
 
 function displayEpisodes(data, season){
