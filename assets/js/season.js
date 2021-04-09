@@ -14,7 +14,7 @@ function fetchEpisodes(series, season){
 
 
 function displayEpisodes(data, season){
-   var episodes = document.getElementById('episodes'); 
+   var episodes = document.getElementById('episodes').innerHTML; 
    for (var i=0; i<data.length; i++){
        if (data[i].season == season){
        episodes.append("Episode "+data[i].episode+": "+data[i].title);
