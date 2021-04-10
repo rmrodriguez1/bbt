@@ -85,3 +85,16 @@
 .topnav .search-container button:hover {
   background: #ccc;
 }
+
+.profile_picture {
+  max-width: 300px;
+  height: auto;
+}
+
+.parent ul{
+  padding-left: 0;
+}
+
+.parent li{
+  padding-left: 20px;
+}
